@@ -4,7 +4,7 @@ This sample explains how to do Lazy Loading with Syncfusion components in React.
 
 ## Lazy Loading 
 
-In the Lazy Loading technique, we load additional payload only on demand. We can lazy load the Syncfusion components and routes in React by using Code splitting. The React will load only the needed components for a path instead of loading everything in the application. This is the main use of Code splitting. So, it reduces the initial loading time of the application.
+In the Lazy Loading technique, you can load additional payload only on demand. You can lazy load the Syncfusion components and routes in React by using Code splitting. The React will load only the needed components for a path instead of loading everything in the application. This is the main use of Code splitting. So, it reduces the initial loading time of the application.
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ For creating the Syncfusion components in React, refer to the [`getting started`
 
 We have created the component files for Syncfusion Calendar and Grid components separately.
 
-In the blog.js file, we have added a Syncfusion Calendar component.
+In the blog.js file, Syncfusion Calendar component has been added.
 
 ```typescript
 import React, { Component } from 'react'
@@ -33,7 +33,7 @@ class Blog extends Component {
 export default Blog
 ```
  
-In the maps.js file, we have added a Syncfusion Grid component.
+In the maps.js file, Syncfusion Grid component has been added.
 
 ```typescript
 import React, { Component } from 'react'
@@ -94,7 +94,7 @@ export default function asyncComponent(getComponent) {
 }
 ```
 
-We have added Syncfusion components (Grid and Calendar) in the App.js file dynamically.
+The Syncfusion components (Grid and Calendar) are added to the App.js file dynamically.
 
 ```typescript
 // Dynamically imported components
