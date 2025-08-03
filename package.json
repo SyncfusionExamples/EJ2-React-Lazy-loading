@@ -5,8 +5,8 @@
   "dependencies": {
     "@syncfusion/ej2-react-calendars": "^17.3.28",
     "@syncfusion/ej2-react-grids": "^17.3.28",
-    "google-map-react": "^0.24.0",
-    "marked": "^0.3.9",
+    "google-map-react": "^2.2.1",
+    "marked": "^4.0.10",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-markdown": "^2.5.0",
